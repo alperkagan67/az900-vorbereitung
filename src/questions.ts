@@ -4770,6 +4770,324 @@ export const questions: Question[] = [
       { text: "Feste monatliche Abrechnung", isCorrect: true },
       { text: "Möglichkeit, die Zahlung für nicht mehr benötigte Ressourcen zu stoppen", isCorrect: false }
     ]
-   }
+   },
+   {
+  id: 477,
+  question: "Welches der folgenden ist KEIN Grund für Organisationen, in die Cloud zu wechseln?",
+  options: [
+    { text: "Kosteneinsparungen", isCorrect: false },
+    { text: "Verbesserte Geschwindigkeit und Skalierbarkeit", isCorrect: false },
+    { text: "Reduzierte Netzwerklatenz", isCorrect: true },
+    { text: "Erhöhte Produktivität", isCorrect: false }
+  ]
+},
+
+{
+  id: 478,
+  question: "Sie sind Azure-Administrator und wurden gebeten, Azure-Ressourcen für ein besseres Management zu organisieren. Was ist der primäre Container, der zusammengehörige Ressourcen für eine Azure-Lösung enthält?",
+  options: [
+    { text: "Availability Set", isCorrect: false },
+    { text: "Resource Pool", isCorrect: false },
+    { text: "Resource Group", isCorrect: true },
+    { text: "Virtual Network", isCorrect: false }
+  ]
+},
+
+{
+  id: 479,
+  question: "Sie sind Azure-Administrator für eine große Organisation mit mehreren Abonnements. Sie möchten eine Richtlinie durchsetzen, die die VM-Erstellung auf bestimmte Regionen über alle Abonnements hinweg beschränkt. Was sollten Sie verwenden?",
+  options: [
+    { text: "Azure Policy auf Abonnementebene", isCorrect: false },
+    { text: "Azure Policy auf Ressourcengruppenebene", isCorrect: false },
+    { text: "Azure Policy auf Verwaltungsgruppenebene", isCorrect: true },
+    { text: "Azure Blueprints", isCorrect: false }
+  ]
+},
+
+{
+  id: 480,
+  question: "Welchen Azure-Dienst sollten Sie verwenden, um Multifaktor-Authentifizierung für die Cloud-Anwendungen Ihrer Organisation durchzusetzen?",
+  options: [
+    { text: "Azure AD B2C", isCorrect: false },
+    { text: "Azure AD Conditional Access", isCorrect: true },
+    { text: "Azure AD Domain Services", isCorrect: false },
+    { text: "Azure RBAC", isCorrect: false }
+  ]
+},
+
+{
+  id: 481,
+  question: "In einem SaaS-Modell ___________ Sie.",
+  options: [
+    { text: "Verwalten Sie die Infrastruktur", isCorrect: false },
+    { text: "Verwalten Sie das Betriebssystem", isCorrect: false },
+    { text: "Verwalten Sie die Anwendungslogik", isCorrect: false },
+    { text: "Verwalten Sie weder die Anwendung noch die Infrastruktur", isCorrect: true }
+  ]
+},
+
+{
+  id: 482,
+  question: "Welche Schicht im Defense-in-Depth-Modell befasst sich hauptsächlich mit der Sicherung des Zugriffs auf virtuelle Maschinen?",
+  options: [
+    { text: "Physical Layer", isCorrect: false },
+    { text: "Identity and Access", isCorrect: false },
+    { text: "Compute Layer", isCorrect: true },
+    { text: "Data Layer", isCorrect: false }
+  ]
+},
+
+{
+  id: 483,
+  question: "Für die Ausführung kleiner Codeabschnitte als Reaktion auf Ereignisse ist der am besten geeignete Azure-Dienst: ___________",
+  options: [
+    { text: "Azure Virtual Machines", isCorrect: false },
+    { text: "Azure App Service", isCorrect: false },
+    { text: "Azure Functions", isCorrect: true },
+    { text: "Azure Kubernetes Service", isCorrect: false }
+  ]
+},
+
+{
+  id: 484,
+  question: "___________ ist KEIN im Microsoft Defender for Cloud angebotener Plan.",
+  options: [
+    { text: "Microsoft Defender for Servers", isCorrect: false },
+    { text: "Microsoft Defender for Storage", isCorrect: false },
+    { text: "Microsoft Defender for Firewall", isCorrect: true },
+    { text: "Microsoft Defender for SQL", isCorrect: false }
+  ]
+},
+
+{
+  id: 485,
+  question: "Für die Bereitstellung eines großen Dienstes, der automatisch je nach Bedarf hoch- oder herunterskaliert werden kann, ist die am besten geeignete Azure-Computeressource: ___________",
+  options: [
+    { text: "Azure Virtual Machines", isCorrect: false },
+    { text: "Virtual machine scale sets", isCorrect: true },
+    { text: "Azure Functions", isCorrect: false },
+    { text: "Azure App Service", isCorrect: false }
+  ]
+},
+
+{
+  id: 486,
+  question: "Die zentrale Funktion in Defender for Cloud, mit der Sie die Sicherheitslage Ihrer Organisation bewerten können, ist: ___________",
+  options: [
+    { text: "Azure Sentinel", isCorrect: false },
+    { text: "Azure Firewall", isCorrect: false },
+    { text: "Secure Score", isCorrect: true },
+    { text: "Azure Key Vault", isCorrect: false }
+  ]
+},
+
+{
+  id: 487,
+  question: "Der Typ der VPN-Gateway-Konnektivität, der es einzelnen Geräten ermöglicht, eine Verbindung zu virtuellen Netzwerken herzustellen, ist: ___________",
+  options: [
+    { text: "Network-to-Network", isCorrect: false },
+    { text: "Device-to-device", isCorrect: false },
+    { text: "Site-to-Site", isCorrect: false },
+    { text: "Point-to-Site", isCorrect: true }
+  ]
+},
+
+{
+  id: 488,
+  question: "Azure Table Storage speichert hauptsächlich: ___________",
+  options: [
+    { text: "Unstrukturierte Daten", isCorrect: false },
+    { text: "Semi-strukturierte Daten", isCorrect: false },
+    { text: "Nicht-relationale strukturierte Daten", isCorrect: true },
+    { text: "Relationale strukturierte Daten", isCorrect: false }
+  ]
+},
+
+{
+  id: 489,
+  question: "Für eine Anwendung, die für kurze Zeit viel Rechenleistung benötigt, wäre die kostengünstigste Azure Virtual Machine-Serie: ___________",
+  options: [
+    { text: "F-series", isCorrect: true },
+    { text: "B-series", isCorrect: false },
+    { text: "A-series", isCorrect: false },
+    { text: "D-series", isCorrect: false }
+  ]
+},
+
+{
+  id: 490,
+  question: "Um den Bereitstellungsprozess in Azure DevOps Services zu automatisieren, würden Sie verwenden: ___________",
+  options: [
+    { text: "Azure Pipelines", isCorrect: true },
+    { text: "Azure Artifacts", isCorrect: false },
+    { text: "Azure Repos", isCorrect: false },
+    { text: "Azure Boards", isCorrect: false }
+  ]
+},
+
+{
+  id: 491,
+  question: "Um ein bestehendes lokales Active Directory auf Azure zu erweitern, ohne Domänencontroller bereitzustellen oder zu verwalten, würden Sie verwenden: ___________",
+  options: [
+    { text: "Azure VPN Gateway", isCorrect: false },
+    { text: "Azure AD Domain Services", isCorrect: true },
+    { text: "Azure AD B2C", isCorrect: false },
+    { text: "Azure AD B2B", isCorrect: false }
+  ]
+},
+
+{
+  id: 492,
+  question: "Um Aufgaben an verschiedene Teammitglieder in Azure zu delegieren, würden Sie verwenden: ___________",
+  options: [
+    { text: "Azure AD Custom Roles", isCorrect: true },
+    { text: "Azure Policies", isCorrect: false },
+    { text: "Azure Resource Groups", isCorrect: false },
+    { text: "Azure Blueprints", isCorrect: false }
+  ]
+},
+
+{
+  id: 493,
+  question: "Der effizienteste Weg, mehrere Azure-Ressourcen konsistent bereitzustellen, ist: ___________",
+  options: [
+    { text: "Azure Resource Manager-Vorlagen verwenden", isCorrect: true },
+    { text: "Jede Ressource manuell im Azure-Portal erstellen", isCorrect: false },
+    { text: "Azure CLI-Skripte für jede Ressource verwenden", isCorrect: false },
+    { text: "Azure PowerShell verwenden", isCorrect: false }
+  ]
+},
+
+{
+  id: 494,
+  question: "Um Zugriff, Richtlinien und Compliance über mehrere Azure-Abonnements hinweg zu verwalten, würden Sie verwenden: ___________",
+  options: [
+    { text: "Azure Blueprints", isCorrect: false },
+    { text: "Azure Policy", isCorrect: false },
+    { text: "Azure Management Groups", isCorrect: true },
+    { text: "Azure Resource Groups", isCorrect: false }
+  ]
+},
+
+{
+  id: 495,
+  question: "Im Defense in Depth-Modell beschränkt die ___________ Schicht typischerweise den Zugang zum Rechenzentrum auf ausschließlich autorisiertes Personal.",
+  options: [
+    { text: "Identity and access", isCorrect: false },
+    { text: "Physical layer", isCorrect: true },
+    { text: "Network security", isCorrect: false },
+    { text: "Perimeter", isCorrect: false }
+  ]
+},
+
+{
+  id: 496,
+  question: "Sie sind Cloud-Architekt und Ihr Unternehmen plant, seine Anwendungen zu Azure zu migrieren. Sie müssen einen Azure-Compute-Dienst wählen, der Ihnen die vollständige Kontrolle über das Betriebssystem und die Umgebung ermöglicht. Welchen Azure-Compute-Dienst würden Sie empfehlen?",
+  options: [
+    { text: "Azure Functions", isCorrect: false },
+    { text: "Azure App Service", isCorrect: false },
+    { text: "Azure Virtual Machines", isCorrect: true },
+    { text: "Azure Container Instances", isCorrect: false }
+  ]
+},
+
+{
+  id: 497,
+  question: "Ihre Organisation muss einen großen Dienst bereitstellen, der automatisch je nach Bedarf hoch- oder herunterskaliert werden kann. Welche Azure-Computeressource wäre für diese Anforderung am besten geeignet?",
+  options: [
+    { text: "Azure Virtual Machines", isCorrect: false },
+    { text: "Virtual machine scale sets", isCorrect: true },
+    { text: "Azure App Service", isCorrect: false },
+    { text: "Azure Functions", isCorrect: false }
+  ]
+},
+
+{
+  id: 498,
+  question: "Sie haben die Aufgabe, eine leichtgewichtige, virtualisierte Anwendungsumgebung bereitzustellen, die schnell skaliert werden kann. Welche Azure-Computeressource sollten Sie verwenden?",
+  options: [
+    { text: "Azure Virtual Machines", isCorrect: false },
+    { text: "Azure Functions", isCorrect: false },
+    { text: "Azure Container Instances", isCorrect: true },
+    { text: "Azure App Service", isCorrect: false }
+  ]
+},
+
+{
+  id: 499,
+  question: "Sie müssen eine Webanwendung bereitstellen, die strenge Anforderungen an Leistung, Skalierbarkeit, Sicherheit und Compliance erfüllt. Welchen Azure-Compute-Dienst würden Sie verwenden?",
+  options: [
+    { text: "Azure Virtual Machines", isCorrect: false },
+    { text: "Azure Functions", isCorrect: false },
+    { text: "Azure Container Instances", isCorrect: false },
+    { text: "Azure App Service", isCorrect: true }
+  ]
+},
+
+{
+  id: 500,
+  question: "Ihre Anwendung muss als Reaktion auf ein Ereignis Arbeiten ausführen und diese schnell, innerhalb von Sekunden oder weniger, abschließen. Welcher Azure-Compute-Dienst wäre am besten geeignet?",
+  options: [
+    { text: "Azure Virtual Machines", isCorrect: false },
+    { text: "Azure Functions", isCorrect: true },
+    { text: "Azure Container Instances", isCorrect: false },
+    { text: "Azure App Service", isCorrect: false }
+  ]
+},
+
+{
+  id: 501,
+  question: "Sie haben die Aufgabe, eine große Menge Offline-Daten nach Azure zu migrieren. Welchen Azure-Dienst würden Sie für die sichere Übertragung dieser Daten verwenden?",
+  options: [
+    { text: "Azure Data Box", isCorrect: true },
+    { text: "Azure SQL Database", isCorrect: false },
+    { text: "Azure Blob Storage", isCorrect: false },
+    { text: "Azure Data Lake Storage", isCorrect: false }
+  ]
+},
+
+{
+  id: 502,
+  question: "Welcher Azure-Dienst bietet eine zentrale Drehscheibe zur Bewertung und Migration von lokalen Servern, Infrastruktur, Anwendungen und Daten zu Azure?",
+  options: [
+    { text: "Azure Site Recovery", isCorrect: false },
+    { text: "Azure Migrate", isCorrect: true },
+    { text: "Azure Backup", isCorrect: false },
+    { text: "Azure DevOps", isCorrect: false }
+  ]
+},
+
+{
+  id: 503,
+  question: "Ihre Organisation muss sensible Dokumente in Azure speichern. Welcher Azure Storage Service würde automatische Verschlüsselung im Ruhezustand bieten?",
+  options: [
+    { text: "Azure Blob Storage", isCorrect: true },
+    { text: "Azure Table Storage", isCorrect: false },
+    { text: "Azure Queue Storage", isCorrect: false },
+    { text: "Azure Disk Storage", isCorrect: false }
+  ]
+},
+
+{
+  id: 504,
+  question: "Sie sind für die Überwachung von Azure-Ressourcen verantwortlich. Welchen Azure-Dienst würden Sie verwenden, um Echtzeitwarnungen auf der Grundlage benutzerdefinierter Metriken einzurichten?",
+  options: [
+    { text: "Azure Advisor", isCorrect: false },
+    { text: "Azure Monitor Alerts", isCorrect: true },
+    { text: "Azure Service Health", isCorrect: false },
+    { text: "Log Analytics", isCorrect: false }
+  ]
+},
+
+{
+  id: 505,
+  question: "Ihre Organisation möchte Protokolle von verschiedenen Azure-Diensten an einem zentralen Ort analysieren. Welchen Azure-Dienst sollten Sie verwenden?",
+  options: [
+    { text: "Azure Advisor", isCorrect: false },
+    { text: "Azure Monitor", isCorrect: false },
+    { text: "Log Analytics", isCorrect: true },
+    { text: "Application Insights", isCorrect: false }
+  ]
+}
 
 ];
